@@ -1,0 +1,128 @@
+.name {
+	margin-top: 0.7%;
+	text-shadow: 0 0 2px #fff; /* horizontal-offset vertical-offset 'blur' colour */
+    -moz-text-shadow: 0 0 2px #fff;
+    -webkit-text-shadow: 0 0 2px #fff;
+    
+}
+
+.username {
+	margin-top: 0.7%;
+	text-shadow: 0 0 2px #fff; /* horizontal-offset vertical-offset 'blur' colour */
+    -moz-text-shadow: 0 0 2px #fff;
+    -webkit-text-shadow: 0 0 2px #fff;   
+}
+
+@media (max-width: 640px){
+	.smallhide {
+		display:none;
+	}
+}
+.date {
+	margin-top: 0.7%;	
+	text-shadow: 0 0 2px #fff; /* horizontal-offset vertical-offset 'blur' colour */
+  -moz-text-shadow: 0 0 2px #fff;
+  -webkit-text-shadow: 0 0 2px #fff;
+}
+
+.days {
+	margin-top: 0.7%;	
+	text-shadow: 0 0 2px #fff; /* horizontal-offset vertical-offset 'blur' colour */
+  -moz-text-shadow: 0 0 2px #fff;
+  -webkit-text-shadow: 0 0 2px #fff;
+}
+
+
+.photo > img {	
+	height: 2.5em;
+	width: 2.5em;
+	padding-top: 0.3%;
+	margin-left: -15%;
+}
+
+.row {	
+	margin-bottom: 0.5%;
+	color: black;
+	font-family: 'Arvo', serif;
+	text-align: center;
+
+	
+}
+
+.data {
+	border-bottom: solid 1px black;
+	border-top: solid 1px black;
+}
+
+.heading {
+	font-weight: bold;
+	color: black !important;
+	-webkit-text-stroke: 0.15px #000000;
+	-webkit-text-fill-color: #000000;
+	
+}
+
+html,body {
+	height: 100%;
+	width: 100%;
+	background-color: #ededed;
+}
+
+.search {
+	margin: 1%;
+}
+
+.buttons {
+	margin: 1%;
+}
+
+.button {
+	background-color: grey;
+	padding: 1%;
+	border-radius: 0.5em;
+	margin:1%;
+}
+
+#search-box {
+	height: 50%;
+	margin-top: 2%;
+}
+
+#searchButton:active {
+	opacity: 0.1;
+}
+
+button:hover {  
+  opacity: 0.5;
+}
+button:active {
+	opacity: 0.1;
+}
+
+.green > .photo > .state {
+	background-color: #A9D26A;
+	width:15%;
+	height: 100%;
+	float: left;
+}
+
+.orange > .photo > .state{
+	background-color: #FF7E47;
+	width:15%;
+	height: 100%;
+	float: left;
+}
+
+.red > .photo > .state{
+	background-color:#ED4337;
+	width:15%;
+	height: 100%;
+	float: left;
+}
+
+.black > .photo > .state{
+	background-color: black;
+	width:15%;
+	height: 100%;
+	float: left;
+}
